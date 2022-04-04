@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=BhuTuka+Expanded+One&family=Fredoka:wght@300&family=Inspiration&family=League+Gothic&family=Lora&family=Nanum+Gothic&family=Ramaraja&family=Roboto:wght@100&family=Sansita+Swashed:wght@300&family=Syne+Mono&display=swap');
+body{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55 px rgba(0,0,0,0.1);
+}
+.left_side
+{
+position: relative;
+background-color:lightslategray;
+padding: 40px;
+}
+.ProfileText
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(45, 46, 45);
+}
+.right_side
+{
+position: relative;
+background-color: rgb(231, 231, 245);
+padding: 40px;
+
+}
+.img1
+{
+    width: 110px;
+    height: 123px;
+}
+.ImgBx
+{
+    position: relative;
+    overflow: hidden;
+    /* width: 200px;
+    height: 200px; */
+}
+li{
+    list-style-type: none;
+
+}
